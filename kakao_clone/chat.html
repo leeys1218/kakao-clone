@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Chat | kakao clone</title>
+    <script src="https://kit.fontawesome.com/da50a6fd22.js" crossorigin="anonymous"></script>
+</head>
+    <body class="chat-body">
+        <div class="header-wrapper">
+        <header class="status-bar-chat">
+            <div class="status-bar__column">
+            <div class="status-bar__column-item">
+                <span class="status-bar__clock">13:54</span>
+            </div>
+            <div class="status-bar__column-item">
+                <i class="fas fa-clock"></i>
+                <i class="fas fa-volume-mute"></i>
+                <i class="fas fa-wifi"></i>
+                <span class="status-bar__battery-level">100%</span>
+                <i class="fas fa-battery-full"></i>
+            </div>
+        </div>
+        </header>
+        <header class="header">
+            <div class="header__header-column">
+                <a href="index.html" class="header__back-btn">
+                <i class="fas fa-arrow-left"></i>
+                </a>
+                <h1 class="header__title">honey</h1>
+            </div>
+            <div class="header__header-column">
+                <span class="header__icon">
+                    <i class="fas fa-search"></i>
+                </span>
+                <span class="header__icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </div>
+        </header>
+        </div>
+        <main class="chat">
+            <ul class="chat__message">
+                <span class="chat__timestamp">
+                    Friend, January 11, 2019
+                </span>
+                <li class="incoming-message message">
+                    <img src="C:\Users\Administrator\Desktop\kakao-clone\avatar.JPG" class="m-avatar message__avatar">
+                    <div class="message__content">
+                        <span class="message__author">honey</span>
+                        <span class="message__bubble">
+                            Hi, long time no see...
+                        </span>
+                    </div>
+                </li>
+                <li class="send-message message">
+                    <div class="message__content">
+                        <div class="message__bubble">
+                            me too...
+                        </div>
+                    </div>
+                </li>
+                <li class="incoming-message message">
+                    <img src="C:\Users\Administrator\Desktop\kakao-clone\avatar.JPG" class="m-avatar message__avatar">
+                    <div class="message__content">
+                        <span class="message__author">honey</span>
+                        <span class="message__bubble">
+                            what time you come out here?
+                        </span>
+                    </div>
+                </li>
+                <li class="send-message message">
+                    <div class="message__content">
+                        <div class="message__bubble">
+                            I don't know... 
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </main>
+        <div class="chat__write--container">
+            <input class="chat__write"type="text" placeholder="send message" >
+            <div class="chat__icon-left chat__icon">
+                <i class="far fa-plus-square"></i>
+            </div>
+            <div class="chat__icon-right chat__icon">
+                <span class="chat__write-icon"><i class="far fa-smile-wink"></i></span>
+                <span class="chat__write-icon"><i class="fas fa-microphone"></i></span>
+
+            </div>
+        </div>
+        <div class="bigScreen">
+            <span class="bigScreen__text">Please make your screen small!</span>
+        </div>
+    </body>
+</html>
